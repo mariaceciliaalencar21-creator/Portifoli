@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-tema="escuro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Maria Cecília Alencar, estudante de Tecnologia e Programação.">
+  <title>Maria Cecília Alencar | Portfólio Dev</title>
+
+  <!-- Fonte do Google Fonts e ícones do Bootstrap Icons via link, conforme a avaliação -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="pular-conteudo" href="#inicio">Pular para o conteúdo</a>
+
+  <header class="cabecalho">
+    <div class="container cabecalho-conteudo">
+      <a class="logotipo" href="#inicio" aria-label="Ir para o início">MC<span>.</span></a>
+
+      <button class="botao-menu" id="botao-menu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-navegacao">
+        <i class="bi bi-list" aria-hidden="true"></i>
+      </button>
+
+      <nav class="menu-navegacao" id="menu-navegacao" aria-label="Navegação principal">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#formacao">Formação</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+        <button class="botao-tema" id="botao-tema" type="button" aria-label="Alternar entre tema claro e escuro">
+          <i class="bi bi-sun-fill" aria-hidden="true"></i>
+          <span>Modo claro</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="secao-inicio" id="inicio">
+      <div class="container inicio-grade">
+        <div class="inicio-texto elemento-revelar">
+          <p class="sobretitulo"><span class="ponto-status"></span> EM CONSTANTE APRENDIZADO</p>
+          <h1>Olá, eu sou <span class="texto-destaque">Maria Cecília</span></h1>
+          <h2 class="titulo-digitacao">Estudante de <span id="texto-digitacao">Tecnologia e Programação</span><span class="cursor-digitacao" aria-hidden="true">|</span></h2>
+          <p class="frase-inicio">Transformando curiosidade em conhecimento.</p>
+          <p class="descricao-inicio">Estou começando minha jornada na tecnologia e aprendendo a transformar ideias em páginas e projetos digitais, um código de cada vez.</p>
+          <div class="botoes-inicio">
+            <a class="botao botao-principal" href="#projetos">Conheça meus projetos <i class="bi bi-arrow-down-right" aria-hidden="true"></i></a>
+            <a class="botao botao-secundario" href="curriculo.pdf" download>Baixar meu CV <i class="bi bi-download" aria-hidden="true"></i></a>
+          </div>
+          <div class="links-sociais-inicio">
+            <a href="https://github.com/mariaceciliaalencar21-creator" target="_blank" rel="noopener noreferrer" aria-label="Meu GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+            <a href="mailto:mariaceciliaalencar21@gmail.com" aria-label="Enviar e-mail"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+            <span class="localizacao"><i class="bi bi-geo-alt" aria-hidden="true"></i> Cuiabá - MT</span>
+          </div>
+        </div>
+
+        <div class="inicio-visual elemento-revelar" aria-label="Ilustração tecnológica">
+          <div class="orbita orbita-externa"></div>
+          <div class="orbita orbita-interna"></div>
+          <div class="avatar-tecnologico">
+            <i class="bi bi-code-slash" aria-hidden="true"></i>
+            <span>Olá, mundo!</span>
+            <div class="avatar-luzes"><span></span><span></span><span></span></div>
+          </div>
+          <div class="etiqueta-flutuante etiqueta-html"><i class="bi bi-filetype-html" aria-hidden="true"></i> HTML</div>
+          <div class="etiqueta-flutuante etiqueta-css"><i class="bi bi-filetype-css" aria-hidden="true"></i> CSS</div>
+          <div class="etiqueta-flutuante etiqueta-js"><i class="bi bi-filetype-js" aria-hidden="true"></i> JavaScript</div>
+          <div class="brilho-decorativo"></div>
+        </div>
+      </div>
+      <a class="indicador-rolagem" href="#sobre"><span></span> Role para conhecer</a>
+    </section>
+
+    <section class="secao secao-sobre" id="sobre">
+      <div class="container">
+        <div class="cabecalho-secao elemento-revelar">
+          <p class="sobretitulo">01 / QUEM SOU EU</p>
+          <h2>Sobre <span class="texto-destaque">mim</span></h2>
+        </div>
+        <div class="sobre-grade">
+          <div class="sobre-texto elemento-revelar">
+            <p>Estou começando a fazer curso de Tecnologia e Programação no SESC Escola, em parceria com o SENAC. Procuro aprender mais sobre tecnologia porque sempre tive curiosidade de descobrir como criar um site do zero.</p>
+            <p>Estou desenvolvendo meus conhecimentos por meio de atividades práticas, códigos e projetos realizados durante as aulas. Quero continuar aprendendo e criar meus próprios projetos.</p>
+          </div>
+          <div class="cartao-objetivo elemento-revelar">
+            <div class="icone-cartao"><i class="bi bi-lightbulb" aria-hidden="true"></i></div>
+            <p class="rotulo-cartao">MEU OBJETIVO</p>
+            <h3>Aprender, praticar e evoluir.</h3>
+            <p>Aprender mais sobre programação e desenvolver meus próprios projetos.</p>
+            <span class="linha-decorativa"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-habilidades" id="habilidades">
+      <div class="container">
+        <div class="cabecalho-secao elemento-revelar">
+          <p class="sobretitulo">02 / O QUE ESTOU APRENDENDO</p>
+          <h2>Minhas <span class="texto-destaque">habilidades</span></h2>
+          <p class="introducao-secao">Conhecimentos que estou construindo durante minha formação.</p>
+        </div>
+        <div class="grade-habilidades">
+          <article class="cartao-habilidade elemento-revelar">
+            <i class="bi bi-filetype-html icone-habilidade" aria-hidden="true"></i>
+            <h3>HTML5</h3><p>Estrutura de páginas web</p><span class="estado-habilidade">Estou aprendendo</span>
+          </article>
+          <article class="cartao-habilidade elemento-revelar">
+            <i class="bi bi-filetype-css icone-habilidade" aria-hidden="true"></i>
+            <h3>CSS3</h3><p>Estilo e organização visual</p><span class="estado-habilidade">Estou aprendendo</span>
+          </article>
+          <article class="cartao-habilidade elemento-revelar">
+            <i class="bi bi-filetype-js icone-habilidade" aria-hidden="true"></i>
+            <h3>JavaScript</h3><p>Interatividade nas páginas</p><span class="estado-habilidade">Estou aprendendo</span>
+          </article>
+          <article class="cartao-habilidade elemento-revelar">
+            <i class="bi bi-braces icone-habilidade" aria-hidden="true"></i>
+            <h3>Portugol</h3><p>Lógica e algoritmos</p><span class="estado-habilidade">Já pratiquei nas aulas</span>
+          </article>
+          <article class="cartao-habilidade elemento-revelar">
+            <i class="bi bi-git icone-habilidade" aria-hidden="true"></i>
+            <h3>Git e GitHub</h3><p>Versionamento de projetos</p><span class="estado-habilidade">Ainda estou aprendendo</span>
+          </article>
+          <article class="cartao-habilidade elemento-revelar">
+            <i class="bi bi-terminal icone-habilidade" aria-hidden="true"></i>
+            <h3>Algoritmos</h3><p>Resolução de problemas</p><span class="estado-habilidade">Prática escolar</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-formacao" id="formacao">
+      <div class="container">
+        <div class="cabecalho-secao elemento-revelar">
+          <p class="sobretitulo">03 / MINHA JORNADA</p>
+          <h2>Formação e <span class="texto-destaque">aprendizado</span></h2>
+          <p class="introducao-secao">Uma etapa de cada vez, construindo minha base em tecnologia.</p>
+        </div>
+        <div class="cartao-formacao elemento-revelar">
+          <div class="formacao-instituicao">
+            <div class="icone-instituicao"><i class="bi bi-mortarboard" aria-hidden="true"></i></div>
+            <div>
+              <p class="rotulo-cartao">MINHA FORMAÇÃO</p>
+              <h3>Curso de Tecnologia e Programação</h3>
+              <p>SESC Escola, em parceria com o SENAC</p>
+              <span class="previsao-formacao"><i class="bi bi-calendar3" aria-hidden="true"></i> Previsão de conclusão: 2028</span>
+            </div>
+          </div>
+          <div class="linha-do-tempo">
+            <article class="etapa-tempo etapa-atual">
+              <div class="marcador-tempo"><i class="bi bi-code-slash" aria-hidden="true"></i></div>
+              <div><span class="etiqueta-etapa">ETAPA ATUAL</span><h4>1º ano — Front-end</h4><p>Aprendizado de estrutura, estilo e interatividade de páginas web.</p></div>
+            </article>
+            <article class="etapa-tempo">
+              <div class="marcador-tempo"><i class="bi bi-server" aria-hidden="true"></i></div>
+              <div><span class="etiqueta-etapa">PRÓXIMA ETAPA</span><h4>2º ano — Back-end</h4><p>Próxima fase prevista para ampliar os conhecimentos de desenvolvimento.</p></div>
+            </article>
+            <article class="etapa-tempo">
+              <div class="marcador-tempo"><i class="bi bi-phone" aria-hidden="true"></i></div>
+              <div><span class="etiqueta-etapa">ETAPA FUTURA</span><h4>3º ano — Mobile</h4><p>Etapa futura voltada ao desenvolvimento para dispositivos móveis.</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-projetos" id="projetos">
+      <div class="container">
+        <div class="cabecalho-secao elemento-revelar">
+          <p class="sobretitulo">04 / PRÁTICA E DESCOBERTA</p>
+          <h2>Meus <span class="texto-destaque">projetos</span></h2>
+          <p class="introducao-secao">Atividades e exercícios que fazem parte da minha jornada de aprendizado.</p>
+        </div>
+        <div class="grade-projetos">
+          <article class="cartao-projeto elemento-revelar">
+            <div class="imagem-projeto visual-html"><i class="bi bi-filetype-html" aria-hidden="true"></i><i class="bi bi-filetype-css" aria-hidden="true"></i><span>HTML + CSS</span></div>
+            <div class="conteudo-projeto">
+              <p class="categoria-projeto">DESENVOLVIMENTO WEB</p>
+              <h3>Sites desenvolvidos nas aulas</h3>
+              <p>Sites e páginas criados durante as aulas para praticar a estrutura e a estilização de páginas web.</p>
+              <div class="etiquetas-tecnologia"><span>HTML5</span><span>CSS3</span></div>
+              <div class="acoes-projeto"><a class="link-projeto" href="#contato">Site: adicionar depois</a><a class="link-projeto" href="#repositorios">Repositório <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div>
+              <!-- Substitua o espaço reservado pelo link real do repositório quando o encontrar. -->
+            </div>
+          </article>
+          <article class="cartao-projeto elemento-revelar">
+            <div class="imagem-projeto visual-js"><i class="bi bi-filetype-js" aria-hidden="true"></i><span>Exercícios práticos</span></div>
+            <div class="conteudo-projeto">
+              <p class="categoria-projeto">PROGRAMAÇÃO WEB</p>
+              <h3>Exercícios de JavaScript e HTML</h3>
+              <p>Exercícios práticos realizados nas aulas para aprender a estruturar páginas e trabalhar com funcionalidades.</p>
+              <div class="etiquetas-tecnologia"><span>HTML5</span><span>JavaScript</span></div>
+              <div class="acoes-projeto"><a class="link-projeto" href="#contato">Site: adicionar depois</a><a class="link-projeto" href="#repositorios">Repositório <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div>
+            </div>
+          </article>
+          <article class="cartao-projeto elemento-revelar">
+            <div class="imagem-projeto visual-portugol"><i class="bi bi-braces" aria-hidden="true"></i><span>Algoritmos</span></div>
+            <div class="conteudo-projeto">
+              <p class="categoria-projeto">LÓGICA DE PROGRAMAÇÃO</p>
+              <h3>Códigos de algoritmos</h3>
+              <p>Códigos e exercícios feitos nas aulas para praticar a lógica de programação e a construção de algoritmos.</p>
+              <div class="etiquetas-tecnologia"><span>Portugol</span><span>Algoritmos</span></div>
+              <div class="acoes-projeto"><a class="link-projeto" href="#repositorios">Ver repositórios <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div>
+            </div>
+          </article>
+        </div>
+        <p class="aviso-links">Os links específicos dos projetos serão adicionados quando os repositórios forem identificados.</p>
+      </div>
+    </section>
+
+    <section class="secao secao-repositorios" id="repositorios">
+      <div class="container">
+        <div class="cabecalho-secao elemento-revelar">
+          <p class="sobretitulo">05 / CÓDIGOS E EXERCÍCIOS</p>
+          <h2>Repositórios de <span class="texto-destaque">estudo</span></h2>
+          <p class="introducao-secao">Espaços preparados para adicionar os links reais das atividades.</p>
+        </div>
+        <div class="lista-repositorios">
+          <article class="item-repositorio elemento-revelar"><div class="icone-repositorio"><i class="bi bi-filetype-html" aria-hidden="true"></i></div><div class="texto-repositorio"><h3>Trilha de HTML e CSS</h3><p>Atividades de estrutura e estilo de páginas web.</p></div><span class="link-pendente">Link a adicionar</span></article>
+          <article class="item-repositorio elemento-revelar"><div class="icone-repositorio"><i class="bi bi-filetype-js" aria-hidden="true"></i></div><div class="texto-repositorio"><h3>Trilha de JavaScript</h3><p>Exercícios e práticas de programação.</p></div><span class="link-pendente">Link a adicionar</span></article>
+          <article class="item-repositorio elemento-revelar"><div class="icone-repositorio"><i class="bi bi-braces" aria-hidden="true"></i></div><div class="texto-repositorio"><h3>Algoritmos em Portugol</h3><p>Códigos e exercícios de lógica das aulas.</p></div><span class="link-pendente">Link a adicionar</span></article>
+        </div>
+        <div class="centralizar elemento-revelar"><a class="botao botao-secundario" href="https://github.com/mariaceciliaalencar21-creator" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" aria-hidden="true"></i> Acessar meu perfil no GitHub</a></div>
+      </div>
+    </section>
+
+    <section class="secao secao-contato" id="contato">
+      <div class="container">
+        <div class="cartao-contato elemento-revelar">
+          <p class="sobretitulo">06 / CONEXÕES</p>
+          <h2>Vamos <span class="texto-destaque">conversar?</span></h2>
+          <p>Quer entrar em contato ou conhecer minhas atividades? Você pode me encontrar pelos canais abaixo.</p>
+          <div class="grade-contatos">
+            <a class="cartao-contato-link" href="mailto:mariaceciliaalencar21@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i><span><small>E-MAIL</small><strong>Enviar uma mensagem</strong></span><i class="bi bi-arrow-up-right seta-contato" aria-hidden="true"></i></a>
+            <a class="cartao-contato-link" href="https://github.com/mariaceciliaalencar21-creator" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" aria-hidden="true"></i><span><small>GITHUB</small><strong>Conheça meus códigos</strong></span><i class="bi bi-arrow-up-right seta-contato" aria-hidden="true"></i></a>
+            <!-- Adicione seu link wa.me real aqui se decidir divulgar o WhatsApp. -->
+            <div class="cartao-contato-link contato-pendente"><i class="bi bi-whatsapp" aria-hidden="true"></i><span><small>WHATSAPP</small><strong>Link será adicionado depois</strong></span><i class="bi bi-clock seta-contato" aria-hidden="true"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-conteudo">
+      <a class="logotipo" href="#inicio">MC<span>.</span></a>
+      <p>Desenvolvido com <span class="coracao" aria-label="amor">♥</span> por Maria Cecília Alencar</p>
+      <p>© <span id="ano-atual"></span> — Transformando curiosidade em conhecimento.</p>
+    </div>
+  </footer>
+
+  <button class="botao-topo" id="botao-topo" type="button" aria-label="Voltar ao topo"><i class="bi bi-arrow-up" aria-hidden="true"></i></button>
+</body>
+</html>
